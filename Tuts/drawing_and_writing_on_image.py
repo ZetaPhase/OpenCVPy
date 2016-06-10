@@ -16,6 +16,14 @@ img = cv2.imread("watch.jpg", cv2.IMREAD_COLOR)
 #draw a rectangle
 cv2.circle(img, (100, 63), 55, (0, 255, 0), -1)
 #draw a circle
+#pts = np.array([[100,50],[200,300],[700,200],[500,100]], np.int32)
+#pts = pts.reshape((-1,1,2))
+#cv2.polylines(img, [pts], True, (0,255,255), 3)
+#draw any pologon
+#font = cv2.FONT_HERSHEY_SIMPLEX
+#cv2.putText(img,'OpenCV Tuts!',(10,500), font, 6, (200,255,155), 13, cv2.LINE_AA)
+#put text on image
+
 cv2.imshow('image', img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
