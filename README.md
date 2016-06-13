@@ -23,4 +23,5 @@ Method 2
 - pip install matplotlib
 - download the wheel for the opencv library here: https://www.lfd.uci.edu/~gohlke/pythonlibs/#opencv
 
-(c) 2016, Xeliot, All Rights Reserved, Licensed under the GPLV3.
+(c) 2016, Xeliot, All Rights Reserved
+- Licensed under the GPLV3.
