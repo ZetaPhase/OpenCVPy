@@ -11,6 +11,7 @@ import cv2
 cap = cv2.VideoCapture(0) # 0 means first webcam
 #fourcc = cv2.VideoWriter_fourcc(*'XVID')
 #out = cv2.VideoWriter('output.avi', fourcc, 20.0, (640, 480))
+counter = 0
 
 while(True):
     ret, frame = cap.read()
@@ -19,6 +20,10 @@ while(True):
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     # convert video frame to grayscale
     #out.write(frame)
+    if counter == 5:
+        cv2.imwrite('mypic.png',frame)
+    else:
+        counter += 1
     cv2.imshow('frame', gray) # show video frame
     if cv2.waitKey(1) & 0xFF == ord('q'): # if press key 'q'
         break

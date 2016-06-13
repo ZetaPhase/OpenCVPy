@@ -10,7 +10,7 @@ import cv2 # image processing
 import numpy as np # element wise arrays
 from matplotlib import pyplot as plt # also for plotting; not necessary
 
-img = cv2.imread('watch.jpg', cv2.IMREAD_GRAYSCALE) # Read in Image as grayscale
+img = cv2.imread('mypic.png', cv2.IMREAD_GRAYSCALE) # Read in Image as grayscale
 cv2.imshow('image', img) # show image to the screen
 cv2.waitKey(0) # wait for key press on keyboard
 cv2.destroyAllWindows() # destroy all image displays
