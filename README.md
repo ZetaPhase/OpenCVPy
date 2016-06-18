@@ -17,7 +17,7 @@ Method 1 (Easier and Preferred)
 - http://mathalope.co.uk/2015/05/07/opencv-python-how-to-install-opencv-python-package-to-anaconda-windows/
 
 Method 2
-- Make sure you have the python IDLE:
+- Make sure you have the python IDLE: (preferably 2.7)
 - https://www.python.org/downloads/
 - pip install numpy
 - pip install matplotlib
