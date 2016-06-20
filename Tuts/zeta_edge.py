@@ -34,7 +34,7 @@ length = np.int32(gray.shape[1])
 # vertical check
 vCheck = gray[0:width, 0:length-1] - gray[0:width, 1:length]
 vCheck = np.absolute(vCheck)
-vGrad = img[0:width, 0:height-1] - img[0:width, 1:height]
+vGrad = img[0:width, 0:length-1] - img[0:width, 1:length]
 retval, vThreshold = cv2.threshold(vCheck, threshVal, 255, cv2.THRESH_BINARY)
 #cv2.imshow('vThreshold', vThreshold)
 #cv2.imshow('vGrad', vGrad)
