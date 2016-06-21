@@ -13,7 +13,7 @@ There are two methods to setting up
 Method 1 (Easier and Preferred)
 - Download Anaconda: Anaconda contains spyder a nice ide for python that includes many of the import libraries you need
 - https://www.continuum.io/downloads
-- However, Opencv will not be included so please follow these instructions below:
+- However, Opencv will not be included so please follow these instructions in the link below:
 - http://mathalope.co.uk/2015/05/07/opencv-python-how-to-install-opencv-python-package-to-anaconda-windows/
 
 Method 2
