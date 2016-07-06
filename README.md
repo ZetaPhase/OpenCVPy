@@ -15,6 +15,7 @@ Method 1 (Easier and Preferred)
 - https://www.continuum.io/downloads
 - However, Opencv will not be included so please follow these instructions in the link below:
 - http://mathalope.co.uk/2015/05/07/opencv-python-how-to-install-opencv-python-package-to-anaconda-windows/
+- add opencv to your path
 
 Method 2
 - Make sure you have the python IDLE: (preferably 2.7)
