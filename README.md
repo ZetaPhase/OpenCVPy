@@ -1,5 +1,5 @@
 # OpenCVPy
-OpenCVPy is just a collection of samples and tutorials of OpenCV with Python based on the python courses from [this website](https://pythonprogramming.net/loading-images-python-opencv-tutorial/).
+OpenCVPY is a collection of samples and tutorials of OpenCV with Python based on the python courses from [this website](https://pythonprogramming.net/loading-images-python-opencv-tutorial/).
 
 OpenCV is an image processing library that allows for modification functionality with images as well as videos and webcam.
 
